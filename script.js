@@ -6,5 +6,5 @@ btn.addEventListener("click",removeColor);
 function removeColor(){
 	console.log(select.selectedIndex)
 	
-	option[select.selectedIndex].innerHTML="";
+	option[select.selectedIndex].remove();
 }
