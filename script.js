@@ -4,6 +4,7 @@ let option = document.querySelectorAll("option");
 btn.addEventListener("click",removeColor);
 
 function removeColor(){
-	// console.log(option)
-	option[select.selectedIndex].remove()
+	console.log(select.selectedIndex)
+	
+	option[select.selectedIndex].innerHTML="";
 }
