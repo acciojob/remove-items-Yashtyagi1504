@@ -4,7 +4,7 @@ btn.addEventListener("click",removeColor);
 
 function removeColor(){	
 	let index = select.selectedIndex;
-	if(index !== 1){
+	if(index !== -1){
 		select.options[index].remove();
 	}
 }
